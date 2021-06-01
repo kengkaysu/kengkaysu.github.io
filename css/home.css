@@ -1,0 +1,25 @@
+.container{
+    color: black;
+    font-family: 'Century Gothic', sans-serif;
+    padding: 5%;
+    float: left;
+}
+
+.headline{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.headline:hover{
+    color: burlywood;
+}
+
+.subline{
+    font-size: 60px;
+    font-family: 'Rebellion Knight', sans-serif;
+}
+
+.button {
+    margin-top: 50px;
+    text-align: center;
+}

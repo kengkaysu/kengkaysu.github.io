@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+}
+
+.container{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+ul{
+    list-style-type:none;
+}
+
+h1.headline{
+    font-size: 10vh;
+}
+h1.headline:hover{
+    color: burlywood;
+    cursor: default;
+}
+
+.container li{
+    padding-top: 15px;
+    font-size: 3vh;
+}
+
+.container a {
+    color: black;
+}
+
+.container a:hover {
+    background-color:burlywood;
+    border: rgb(206, 147, 70) solid 5px;
+    padding: 5px;
+    transition: 0.3s;
+    color: #ffffff;
+}

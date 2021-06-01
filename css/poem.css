@@ -1,0 +1,20 @@
+.container1 {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: left;
+    align-items: left;
+    margin-left: 80px;
+}
+
+.container1 h1{
+    padding: 5px 0px;
+}
+
+.container1 h1:hover{
+    color: burlywood;
+}
+
+.container1 p{
+    padding: 10px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}

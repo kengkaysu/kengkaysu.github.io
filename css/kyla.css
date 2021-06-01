@@ -1,0 +1,37 @@
+.container {
+    font-family: 'Century Gothic', sans-serif;
+    display: flex;
+    align-items: flex-start;
+}
+
+.message {
+    width: 60%;
+}
+
+.container h1{
+    padding: 5px 0px;
+    font-size: 50px;
+}
+
+.container h1:hover{
+    color: burlywood;
+}
+
+img {
+    width: 100%;
+}
+
+.polaroid {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(5deg);
+    margin-left: 80px;
+}
+
+.description{
+    text-align: center;
+    font-family: 'Goodest', sans-serif;
+    padding: 10px 20px;
+    font-size: 100%;
+}
