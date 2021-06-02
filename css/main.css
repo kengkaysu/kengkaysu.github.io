@@ -54,12 +54,13 @@ a.logo{
     color: white;
     font-weight: bold;
     font-size: 25px;
+    transition: transform .2s;
 }
 
 
 a.logo:hover {
     background-color: rgb(211, 159, 90);
-    transition: 0.5s;
+    transform: scale(1.03);
 }
 header ul{
     font-family: 'Lucida Sans', sans-serif;
@@ -71,11 +72,13 @@ header li{
     display: inline-block;
     padding: 5px 20px;
     border: #ffffff solid 2px;
+    transition: transform .2s;
 }
 
 header li:hover{
     background-color: rgb(211, 159, 90);
     transition: 0.5s;
+    transform: scale(1.03);
 }
 
 .container{
