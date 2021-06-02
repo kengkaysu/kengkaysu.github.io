@@ -92,12 +92,12 @@ button {
     border: #000000 solid 5px;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 2px;
+    transition: transform .2s;
 }
 
 button:hover{
     background-color:burlywood;
     border: rgb(206, 147, 70) solid 5px;
-    transition: 0.5s;
     color: #ffffff;
     transform: scale(1.03);
 

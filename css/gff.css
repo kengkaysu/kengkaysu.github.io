@@ -70,11 +70,11 @@ h3.caption{
 
 .post img{
     cursor: pointer;
+    transition: transform .3s;
 }
 
 .post img:hover{
     transform: scale(1.05);
-    transition: 0.5s;
 }
 
 .post p{

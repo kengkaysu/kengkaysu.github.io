@@ -38,12 +38,12 @@
   vertical-align: middle;
   width: 100%;
   cursor: pointer;
+  transition: transform .3s;
   
 }
 
 .column img:hover{
   transform: scale(1.05);
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 800px) {
