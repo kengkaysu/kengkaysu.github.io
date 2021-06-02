@@ -4,8 +4,6 @@ a{
 
 .container{
     font-family: 'Century Gothic', sans-serif;
-    display: flex;
-    align-items: flex-start;
 }
 
 ul{
@@ -35,23 +33,4 @@ h1.headline:hover{
     padding: 5px;
     transition: 0.3s;
     color: #ffffff;
-}
-
-img {
-    width: 100%;
-}
-
-.polaroid {
-    width: 400px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: rotate(5deg);
-    margin-left: 25rem;
-}
-
-.polaroid h2{
-    text-align: center;
-    font-family: 'Goodest', sans-serif;
-    padding: 10px 20px;
-    font-size: 2rem;
 }

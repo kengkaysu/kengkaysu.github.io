@@ -37,6 +37,13 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  cursor: pointer;
+  
+}
+
+.column img:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 800px) {
@@ -53,8 +60,4 @@
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.column img{
-  cursor: pointer;
 }

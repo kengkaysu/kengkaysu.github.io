@@ -72,6 +72,11 @@ h3.caption{
     cursor: pointer;
 }
 
+.post img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .post p{
     line-height: 18px;
     font-size: 18px;
