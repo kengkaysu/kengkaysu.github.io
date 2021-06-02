@@ -26,16 +26,16 @@ img {
 }
 
 .polaroid {
-    width: 300px;
+    width: 450px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(5deg);
     margin-left: 100px;
 }
 
-.description{
+.polaroid h2{
     text-align: center;
     font-family: 'Goodest', sans-serif;
     padding: 10px 20px;
-    font-size: 100%;
+    font-size: 2rem;
 }
