@@ -89,16 +89,17 @@ button {
     cursor: pointer;
     padding: 10px;
     color: #000000;
-    border: #000000 solid 8px;
+    border: #000000 solid 5px;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 2px;
 }
 
 button:hover{
     background-color:burlywood;
-    border: rgb(206, 147, 70) solid 8px;
+    border: rgb(206, 147, 70) solid 5px;
     transition: 0.5s;
     color: #ffffff;
+    transform: scale(1.03);
 
 }
 
