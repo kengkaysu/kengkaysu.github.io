@@ -2,11 +2,11 @@
     color: black;
     font-family: 'Century Gothic', sans-serif;
     padding: 5%;
-    float: left;
+    align-items: center;
 }
 
 .headline{
-    font-size: 100px;
+    font-size: 8vmax;
     font-weight: bold;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .subline{
-    font-size: 60px;
+    font-size: 5vmax;
     font-family: 'Rebellion Knight', sans-serif;
 }
 

@@ -1,5 +1,5 @@
 .container {
-    max-width: 40%;
+    max-width: 40vmax;
     margin: auto;
     padding: 0;
     margin-top: 100px;
@@ -24,11 +24,11 @@
     font-size: 20px;
     border-bottom: 1px solid burlywood;
     padding: 10px;
-}
 
+}
 img.DP{
-    width: 50px;
-    height: 50px;
+    width: 3vmax;
+    height: 3vmax;
     border-radius: 50%;
     margin-right: 15px;
     background-image: url(../images/deafault.png);
@@ -73,13 +73,22 @@ h3.caption{
 }
 
 .post p{
-    line-height: 1;
+    line-height: 18px;
     font-size: 18px;
 }
 
-#more {display: none;}
+.post2{
+    display: none;
+}
 
-.post p a {
-    color: dodgerblue;
-    font-size: 18px;
+.read-more-btn{
+    color: #0984e3;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
 }
