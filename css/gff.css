@@ -67,3 +67,19 @@ h3.caption{
     padding-bottom: 10px;
     margin-bottom: 50px;
 }
+
+.post img{
+    cursor: pointer;
+}
+
+.post p{
+    line-height: 1;
+    font-size: 18px;
+}
+
+#more {display: none;}
+
+.post p a {
+    color: dodgerblue;
+    font-size: 18px;
+}
