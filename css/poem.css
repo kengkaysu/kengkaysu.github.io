@@ -1,12 +1,10 @@
 .container1 {
     font-family: 'Century Gothic', sans-serif;
-    text-align: left;
-    align-items: left;
-    margin-left: 80px;
+    padding: 2%;
 }
 
 .container1 h1{
-    margin: 5px 0px;
+    margin: 10px 0px 10px;
 }
 
 .container1 h1:hover{
@@ -14,7 +12,7 @@
 }
 
 .container1 p{
-    margin: 15px 0px;
-    font-size: 18px;
+    margin: 10px 0px 10px;
+    font-size: 16px;
     line-height: 1.5;
 }

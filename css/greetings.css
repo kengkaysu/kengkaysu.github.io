@@ -1,7 +1,12 @@
-.container {
+.container{
     font-family: 'Century Gothic', sans-serif;
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.message{
+    flex: 60%;
 }
 
 .container h1{
@@ -13,29 +18,30 @@
     cursor: default;
 }
 
-.button {
-    text-align: center;
-}
-
-.message{
-    width: 60%;
-}
-
-img {
-    width: 100%;
+.message p {
+    margin: 10px 0 10px;
+    font-size: 20px;
 }
 
 .polaroid {
-    width: 450px;
-    background-color: white;
+    flex: 30%;
+    background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: rotate(5deg);
-    margin-left: 100px;
+    transform: rotate(3deg);
 }
 
 .polaroid h2{
+    padding: 10px;
     text-align: center;
     font-family: 'Goodest', sans-serif;
-    padding: 10px 20px;
-    font-size: 2rem;
+}
+
+.polaroid img{
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .container {   
+    flex-direction: column;
+    }
 }
