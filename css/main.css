@@ -70,7 +70,7 @@ nav span{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 52px;
     left: 0;
     background-color: burlywood;
     overflow-x: hidden;
