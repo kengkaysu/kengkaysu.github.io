@@ -8,6 +8,16 @@
     src: url(../fonts/Rebellion\ Knight.ttf);
 }
 
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/GOTHIC.TTF);
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url(../fonts/LSANS.TTF);
+}
+
 * {
     padding: 0;
     margin: 0;
