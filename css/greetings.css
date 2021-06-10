@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    align-items: flex-start;
 }
 
 .message{
@@ -25,11 +26,12 @@
 
 .polaroid {
     flex: 30%;
-    position: relative;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(3deg);
+    position: static;
 }
+
 
 .polaroid h2{
     padding: 10px;
@@ -43,7 +45,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .container {   
-    flex-direction: column;
+    .container, .polaroid {   
+    flex: 100%;
     }
 }

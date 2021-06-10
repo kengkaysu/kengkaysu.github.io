@@ -50,6 +50,7 @@ nav{
     position: fixed;
     top: 0;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .logo {

@@ -1,11 +1,13 @@
 .container {
     font-family: 'Century Gothic', sans-serif;
     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
     align-items: flex-start;
 }
 
 .message {
-    width: 60%;
+    flex: 60%;
 }
 
 .container h1{
@@ -22,7 +24,7 @@ img {
 }
 
 .polaroid {
-    width: 450px;
+    flex: 30%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(5deg);
@@ -34,4 +36,10 @@ img {
     font-family: 'Goodest', sans-serif;
     padding: 10px 20px;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .container, .polaroid {   
+    flex: 100%;
+    }
 }
